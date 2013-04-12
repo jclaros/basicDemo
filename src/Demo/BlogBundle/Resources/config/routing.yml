@@ -1,0 +1,3 @@
+demo_blog_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: DemoBlogBundle:Default:index }

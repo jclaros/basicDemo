@@ -1,0 +1,4 @@
+demo_blog:
+    resource: "@DemoBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
