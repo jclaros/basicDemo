@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/Users/jonathan/demos/basicDemo/composer.json</file>
+        <file>file:/Users/jonathan/demos/basicDemo/app/AppKernel.php</file>
+        <file>file:/Users/jonathan/demos/basicDemo/app/config/config_dev.yml</file>
+        <file>file:/Users/jonathan/demos/basicDemo/app/config/config_prod.yml</file>
+        <file>file:/Users/jonathan/demos/basicDemo/app/config/config_test.yml</file>
+        <file>file:/Users/jonathan/demos/basicDemo/app/config/parameters.yml</file>
+        <file>file:/Users/jonathan/demos/basicDemo/app/config/routing.yml</file>
+        <file>file:/Users/jonathan/demos/basicDemo/app/config/routing_dev.yml</file>
+        <file>file:/Users/jonathan/demos/basicDemo/src/Demo/BlogBundle/Resources/config/routing.yml</file>
+        <file>file:/Users/jonathan/demos/basicDemo/web/css/screen.css</file>
+        <file>file:/Users/jonathan/demos/basicDemo/app/Resources/views/base.html.twig</file>
+        <file>file:/Users/jonathan/demos/basicDemo/src/Demo/BlogBundle/Resources/views/layout.html.twig</file>
+        <file>file:/Users/jonathan/demos/basicDemo/src/Demo/BlogBundle/Controller/PageController.php</file>
+        <file>file:/Users/jonathan/demos/basicDemo/src/Demo/BlogBundle/Controller/DefaultController.php</file>
+        <file>file:/Users/jonathan/demos/basicDemo/src/Demo/BlogBundle/Resources/views/Page/index.html.twig</file>
+    </open-files>
+</project-private>

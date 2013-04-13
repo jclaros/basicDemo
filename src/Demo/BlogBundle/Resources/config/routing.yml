@@ -1,3 +1,9 @@
 demo_blog_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: DemoBlogBundle:Default:index }
+    
+demo_blog_base_page:
+    pattern:  /
+    defaults: { _controller: DemoBlogBundle:Page:index }
+    requirements:
+      _method: GET
