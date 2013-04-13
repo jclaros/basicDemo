@@ -10,7 +10,15 @@ class PageController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('DemoBlogBundle:Page:index.html.twig');
+      $em = $this->getDoctrine()->getEntityManager();
+      
+      $blogs = $em->getRepository('DemoBlogBundle:Blog')
+              ->getLatestBlogs(10);
+      
+      
+        return $this->render('DemoBlogBundle:Page:index.html.twig',array(
+            'blogs' => $blogs
+        ));
     }
     
     public function aboutAction() 

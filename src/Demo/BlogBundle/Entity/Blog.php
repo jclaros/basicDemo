@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @author Jonathan Claros <jclaros at lysoftbo.com>
  * 
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Demo\BlogBundle\Entity\Repository\BlogRepository")
  * @ORM\Table(name="blog")
  * @ORM\HasLifecycleCallbacks
  * 
@@ -134,16 +134,6 @@ class Blog
     }
 
     /**
-     * Get blog
-     *
-     * @return string 
-     */
-    public function getBlog()
-    {
-        return $this->blog;
-    }
-
-    /**
      * Set image
      *
      * @param string $image
@@ -240,4 +230,15 @@ class Blog
     {
       $this->setUpdated(new \DateTime());
     }
+    
+    public function getBlog($length = null) 
+    {
+      if(false === is_null($length) && $length > 0){
+        return substr($this->blog, 0, $length);
+      }
+      else{
+        return $this->blog;
+      }
+    }
+    
 }
