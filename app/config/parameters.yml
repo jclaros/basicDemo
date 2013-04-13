@@ -1,10 +1,16 @@
 parameters:
-    database_driver:   pdo_mssql
-    database_host:     192.168.0.101
-    database_port:     1433
+#    database_driver:   pdo_mssql
+#    database_host:     192.168.0.101
+#    database_port:     1433
+#    database_name:     testDb
+#    database_user:     test
+#    database_password: test-1
+    database_driver:   pdo_mysql
+    database_host:     localhost
+    database_port:     ~
     database_name:     testDb
-    database_user:     test
-    database_password: test-1
+    database_user:     root
+    database_password: 123
 
     mailer_transport:  gmail
     mailer_encryption: ssl

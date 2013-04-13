@@ -19,3 +19,10 @@ demo_blog_base_contact:
     defaults: { _controller: DemoBlogBundle:Page:contact }
     requirements:
       _method: GET|POST
+    
+demo_blog_blog_show:
+    pattern:  /{id}
+    defaults: { _controller: DemoBlogBundle:Blog:show }
+    requirements:
+      _method: GET
+      id: \d+
