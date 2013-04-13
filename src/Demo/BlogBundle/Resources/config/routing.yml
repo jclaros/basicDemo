@@ -13,3 +13,9 @@ demo_blog_base_about:
     defaults: { _controller: DemoBlogBundle:Page:about }
     requirements:
       _method: GET
+    
+demo_blog_base_contact:
+    pattern:  /contact
+    defaults: { _controller: DemoBlogBundle:Page:contact }
+    requirements:
+      _method: GET|POST
