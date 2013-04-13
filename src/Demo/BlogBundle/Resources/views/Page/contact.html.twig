@@ -12,6 +12,12 @@
     want to contact this blog
   </p>
   
+  {% if app.session.hasFlash('blogger-notice') %}
+    <div class="blogger-notice">
+      {{ app.session.flash('blogger-notice') }}
+    </div>
+  {% endif %}
+  
   <form action="{{ path('demo_blog_base_contact') }}" method="POST" {{ form_enctype(form) }} class="blogger" >
     {{ form_errors(form) }}
     

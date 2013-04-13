@@ -1,15 +1,17 @@
 parameters:
-    database_driver:   pdo_mysql
-    database_host:     127.0.0.1
-    database_port:     ~
-    database_name:     symfony
-    database_user:     root
-    database_password: ~
+    database_driver:   pdo_mssql
+    database_host:     192.168.0.101
+    database_port:     1433
+    database_name:     testDb
+    database_user:     test
+    database_password: test-1
 
-    mailer_transport:  smtp
-    mailer_host:       127.0.0.1
-    mailer_user:       ~
-    mailer_password:   ~
+    mailer_transport:  gmail
+    mailer_encryption: ssl
+    mailer_auth_mode: login
+    mailer_host: smtp.gmail.com
+    mailer_user: basicdemo13apr2013
+    mailer_password: basicDemo
 
     locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt

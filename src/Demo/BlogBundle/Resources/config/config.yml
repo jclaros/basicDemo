@@ -1,0 +1,4 @@
+## YAML Template.
+parameters:
+  #blogger contact email address 
+  blogger_blog.emails.contact_email: jclaros@lysoftbo.com

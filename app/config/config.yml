@@ -1,6 +1,12 @@
 imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
+    - { resource: @DemoBlogBundle/Resources/config/config.yml }
+
+parameters:
+    # Blogger contact email address
+    blogger_blog.emails.contact_email: andrew.hhb.cs@gmail.com
+
 
 framework:
     #esi:             ~
